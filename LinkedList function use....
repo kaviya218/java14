@@ -1,0 +1,23 @@
+import java.util.*;
+class solution{
+    public static void main(String[]args)
+    {
+        LinkedList<String>r = new LinkedList<String>();
+        r.add("Maths");
+        r.add("Science");
+        r.add("Social");
+        r.add("Physics");
+        r.add("ComputerScience");
+        System.out.println(r);
+       System.out.println(r.getFirst());
+       System.out.println(r.getLast());
+        r.removeFirst();
+        System.out.println(r.contains("Social"));
+       System.out.println(r);
+        System.out.println(r.poll());
+        System.out.println(r);
+        System.out.println(r.peek());
+        System.out.println(r);
+        
+        }
+}
